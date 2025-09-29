@@ -1,6 +1,6 @@
 {
   "name": "highlight-unused-css",
-  "displayName": "highlight-unused-css",
+  "displayName": "Highlight Unused CSS",
   "description": "Highlight Unused Global CSS Classes From Files or Project",
   "version": "0.0.1",
   "icon": "highlight-css.png",
