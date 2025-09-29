@@ -22,6 +22,21 @@
     "workspaceContains:src/index.css"
   ],
   "contributes": {
+    "configuration": {
+      "title": "My Extension Settings",
+      "properties": {
+        "highlight-unused-css.scssPath": {
+          "type": "string",
+          "default": "src/index.scss",
+          "description": "Path to your main SCSS file (relative to workspace root)"
+        },
+        "highlight-unused-css.cssPath": {
+          "type": "string",
+          "default": "src/index.css",
+          "description": "Path to your generated CSS file (relative to workspace root)"
+        }
+      }
+    },
     "commands": [],
     "languages": [
       {

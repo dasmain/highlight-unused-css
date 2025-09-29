@@ -18,10 +18,10 @@ async function analyzeWorkspace() {
   const workspaceFolders = vscode.workspace.workspaceFolders;
   if (!workspaceFolders) return;
 
-  const root = workspaceFolders[0].uri.fsPath;
-
-  const scssPath = `${root}/src/index.scss`;
-  const cssPath = `${root}/src/index.css`;
+  const config = vscode.workspace.getConfiguration("highlight-unused-css");
+  const root = vscode.workspace.workspaceFolders?.[0].uri.fsPath || "";
+  const scssPath = `${root}/${config.get("scssPath")}`;
+  const cssPath = `${root}/${config.get("cssPath")}`;
 
   let stylePath = "";
   if (fs.existsSync(scssPath)) {
