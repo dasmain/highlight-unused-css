@@ -4,6 +4,7 @@
   "description": "Highlight Unused Global CSS Classes From Files or Project",
   "version": "0.0.1",
   "icon": "highlight-css.png",
+  "publisher": "dasmain",
   "engines": {
     "vscode": "^1.104.0"
   },
