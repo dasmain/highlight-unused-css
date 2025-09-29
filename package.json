@@ -6,6 +6,11 @@
   "engines": {
     "vscode": "^1.104.0"
   },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dasmain/highlight-unused-css"
+  },
   "categories": [
     "Other"
   ],
