@@ -2,7 +2,7 @@
   "name": "highlight-unused-css",
   "displayName": "Highlight Unused CSS",
   "description": "Highlight Unused Global CSS Classes From Files or Project",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "highlight-css.png",
   "publisher": "dasmain",
   "engines": {
@@ -23,7 +23,7 @@
   ],
   "contributes": {
     "configuration": {
-      "title": "My Extension Settings",
+      "title": "Highlight Unused CSS",
       "properties": {
         "highlight-unused-css.scssPath": {
           "type": "string",
